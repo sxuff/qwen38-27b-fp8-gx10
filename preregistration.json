@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-08-14T15:52:10+00:00",
+  "primary_trace_count_at_freeze": 0,
+  "amendment": {
+    "number": 1,
+    "reason": "no-spec-a1 crossed the sealed swap-growth guard before readiness",
+    "common_mem_fraction_static": 0.70,
+    "superseded_common_mem_fraction_static": 0.75
+  },
+  "model": {
+    "repo": "Qwen/Qwen3.8-27B-FP8",
+    "revision": "017b9c7af6b5689d5dd426a76e0bc077eb5ca20a",
+    "verified_files": 81,
+    "verified_bytes": 30890049597,
+    "verification_report_sha256": "2b3a9392fc8e71ee7b5f68e97aa1d73025f3a0227446d41d8faca706febf817b"
+  },
+  "runtime_image_digest": "sha256:febfb971c7352570fc445c466ebd6ffc9d896024958e544a60f2137fd85856b1",
+  "hashes": {
+    "PROTOCOL.md": "272f26221a8a12991f130ca9ac2f0bfccac5fd79043b4ffe786e0d8c3279449b",
+    "AMENDMENTS.md": "c783b247f4690614825af2443a624e358271ef736e6a980d1816bfe2fb3141a2",
+    "src/benchmark.py": "0697092d76c8d7e9c716a556121e5dbea4c25026c2b9eb9010d90698aae112e0",
+    "src/telemetry.py": "42e11c324cd7a6e708ca510707bffa5ce4363af25c468dce6c0f38e796d32bdc",
+    "src/analyze.py": "b1241f75f3f35a723430c2982555584ec04c9ec95f138a6a11740d2c0fbbcac8",
+    "environment/model-download-manifest.json": "4e82df1d5004568713ab02933bf1528fedfc1dbe43a9850a1d925e64a1bb690a",
+    "environment/model-verification-report.json": "2b3a9392fc8e71ee7b5f68e97aa1d73025f3a0227446d41d8faca706febf817b"
+  },
+  "matrix": {
+    "serial_input_targets": [512, 4096, 16384, 32768],
+    "serial_repetitions": 3,
+    "output_tokens": 256,
+    "concurrency_levels": [1, 4, 8],
+    "requests_per_concurrency": 8,
+    "concurrency_input_target": 1024
+  },
+  "safety": {
+    "mem_available_floor_bytes": 16106127360,
+    "max_swap_growth_bytes": 536870912
+  }
+}

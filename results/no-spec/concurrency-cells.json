@@ -1,0 +1,26 @@
+[
+  {
+    "aggregate_completion_tokens_per_second": 7.718156721991585,
+    "completion_tokens": 2048,
+    "concurrency": 1,
+    "planned_requests": 8,
+    "successful_requests": 8,
+    "wall_seconds": 265.34833040699596
+  },
+  {
+    "aggregate_completion_tokens_per_second": 28.937742540819787,
+    "completion_tokens": 2048,
+    "concurrency": 4,
+    "planned_requests": 8,
+    "successful_requests": 8,
+    "wall_seconds": 70.77262495894684
+  },
+  {
+    "aggregate_completion_tokens_per_second": 47.051427993088915,
+    "completion_tokens": 2048,
+    "concurrency": 8,
+    "planned_requests": 8,
+    "successful_requests": 8,
+    "wall_seconds": 43.52684046700597
+  }
+]

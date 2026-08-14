@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.state/
+runs/
+.cache/
+*.part
+.DS_Store

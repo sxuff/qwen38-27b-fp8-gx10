@@ -1,0 +1,2 @@
+# Raw benchmark receipts intentionally preserve protocol framing and log bytes.
+results/** whitespace=-blank-at-eof,-trailing-space

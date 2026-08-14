@@ -1,0 +1,225 @@
+{
+  "arms": [
+    {
+      "arm": "no-spec",
+      "concurrency": [
+        {
+          "aggregate_completion_tokens_per_second": 7.718156721991585,
+          "completion_tokens": 2048,
+          "concurrency": 1,
+          "eligible_requests": 8,
+          "median_actual_prompt_tokens": 1024.0,
+          "median_decode_tokens_per_second": 7.85186986174336,
+          "median_e2e_seconds": 33.117349023988936,
+          "median_ttft_seconds": 0.6393744914967101,
+          "p95_ttft_seconds": 0.64751579129952,
+          "planned_requests": 8,
+          "successful_requests": 8,
+          "wall_seconds": 265.34833040699596
+        },
+        {
+          "aggregate_completion_tokens_per_second": 28.937742540819787,
+          "completion_tokens": 2048,
+          "concurrency": 4,
+          "eligible_requests": 8,
+          "median_actual_prompt_tokens": 1024.0,
+          "median_decode_tokens_per_second": 7.771559022313214,
+          "median_e2e_seconds": 35.38297605101252,
+          "median_ttft_seconds": 2.5811580814770423,
+          "p95_ttft_seconds": 2.968199591388111,
+          "planned_requests": 8,
+          "successful_requests": 8,
+          "wall_seconds": 70.77262495894684
+        },
+        {
+          "aggregate_completion_tokens_per_second": 47.051427993088915,
+          "completion_tokens": 2048,
+          "concurrency": 8,
+          "eligible_requests": 8,
+          "median_actual_prompt_tokens": 1024.0,
+          "median_decode_tokens_per_second": 7.34280284451809,
+          "median_e2e_seconds": 43.521407271473436,
+          "median_ttft_seconds": 8.7928901569976,
+          "p95_ttft_seconds": 8.794004699523793,
+          "planned_requests": 8,
+          "successful_requests": 8,
+          "wall_seconds": 43.52684046700597
+        }
+      ],
+      "concurrency_eligible": 24,
+      "concurrency_rows": 24,
+      "safety_incident": false,
+      "serial": [
+        {
+          "eligible": 3,
+          "median_actual_prompt_tokens": 512.0,
+          "median_completion_tokens": 256.0,
+          "median_decode_tokens_per_second": 7.858838911210522,
+          "median_e2e_seconds": 32.82116858498193,
+          "median_ttft_seconds": 0.3769043379579671,
+          "p95_ttft_seconds": 0.4243779240641743,
+          "planned": 3,
+          "target_input_tokens": 512
+        },
+        {
+          "eligible": 3,
+          "median_actual_prompt_tokens": 4096.0,
+          "median_completion_tokens": 256.0,
+          "median_decode_tokens_per_second": 7.797480028366301,
+          "median_e2e_seconds": 35.558884508966,
+          "median_ttft_seconds": 2.8490443030023016,
+          "p95_ttft_seconds": 2.8553146830701737,
+          "planned": 3,
+          "target_input_tokens": 4096
+        },
+        {
+          "eligible": 3,
+          "median_actual_prompt_tokens": 16384.0,
+          "median_completion_tokens": 256.0,
+          "median_decode_tokens_per_second": 7.503178970036759,
+          "median_e2e_seconds": 53.544336041028146,
+          "median_ttft_seconds": 19.5587412660243,
+          "p95_ttft_seconds": 19.687730652891332,
+          "planned": 3,
+          "target_input_tokens": 16384
+        },
+        {
+          "eligible": 3,
+          "median_actual_prompt_tokens": 32768.0,
+          "median_completion_tokens": 256.0,
+          "median_decode_tokens_per_second": 7.182623316351732,
+          "median_e2e_seconds": 77.12242876697564,
+          "median_ttft_seconds": 41.59284720901633,
+          "p95_ttft_seconds": 41.735084817302415,
+          "planned": 3,
+          "target_input_tokens": 32768
+        }
+      ],
+      "serial_eligible": 12,
+      "serial_rows": 12,
+      "telemetry": {
+        "max_power_w": 83.5,
+        "max_swap_growth_bytes": 81760256,
+        "max_temperature_c": 90.0,
+        "max_utilization_percent": 96.0,
+        "mean_power_w": 34.64073464217859,
+        "min_mem_available_bytes": 24500076544,
+        "samples": 1579
+      }
+    },
+    {
+      "arm": "mtp",
+      "concurrency": [
+        {
+          "aggregate_completion_tokens_per_second": 19.974074622347334,
+          "completion_tokens": 2048,
+          "concurrency": 1,
+          "eligible_requests": 8,
+          "median_actual_prompt_tokens": 1024.0,
+          "median_decode_tokens_per_second": 21.195533531939866,
+          "median_e2e_seconds": 12.749730237526819,
+          "median_ttft_seconds": 0.7127232064667623,
+          "p95_ttft_seconds": 0.7212332022638293,
+          "planned_requests": 8,
+          "successful_requests": 8,
+          "wall_seconds": 102.53291022096528
+        },
+        {
+          "aggregate_completion_tokens_per_second": 58.22100443589285,
+          "completion_tokens": 2048,
+          "concurrency": 4,
+          "eligible_requests": 8,
+          "median_actual_prompt_tokens": 1024.0,
+          "median_decode_tokens_per_second": 18.27408798667404,
+          "median_e2e_seconds": 15.36794133350486,
+          "median_ttft_seconds": 1.8156596564804204,
+          "p95_ttft_seconds": 2.3106469411432045,
+          "planned_requests": 8,
+          "successful_requests": 8,
+          "wall_seconds": 35.176308272988535
+        },
+        {
+          "aggregate_completion_tokens_per_second": 83.89413746246458,
+          "completion_tokens": 2048,
+          "concurrency": 8,
+          "eligible_requests": 8,
+          "median_actual_prompt_tokens": 1024.0,
+          "median_decode_tokens_per_second": 16.64533233989683,
+          "median_e2e_seconds": 24.11032770300517,
+          "median_ttft_seconds": 8.789226173015777,
+          "p95_ttft_seconds": 8.791724091253126,
+          "planned_requests": 8,
+          "successful_requests": 8,
+          "wall_seconds": 24.41171769500943
+        }
+      ],
+      "concurrency_eligible": 24,
+      "concurrency_rows": 24,
+      "safety_incident": false,
+      "serial": [
+        {
+          "eligible": 3,
+          "median_actual_prompt_tokens": 512.0,
+          "median_completion_tokens": 256.0,
+          "median_decode_tokens_per_second": 20.111696015534626,
+          "median_e2e_seconds": 13.12014720699517,
+          "median_ttft_seconds": 0.4409579529892653,
+          "p95_ttft_seconds": 0.44290399327874186,
+          "planned": 3,
+          "target_input_tokens": 512
+        },
+        {
+          "eligible": 3,
+          "median_actual_prompt_tokens": 4096.0,
+          "median_completion_tokens": 256.0,
+          "median_decode_tokens_per_second": 21.77686025239908,
+          "median_e2e_seconds": 14.59170772699872,
+          "median_ttft_seconds": 2.882030709995888,
+          "p95_ttft_seconds": 2.882105092314305,
+          "planned": 3,
+          "target_input_tokens": 4096
+        },
+        {
+          "eligible": 3,
+          "median_actual_prompt_tokens": 16384.0,
+          "median_completion_tokens": 256.0,
+          "median_decode_tokens_per_second": 21.928367607345294,
+          "median_e2e_seconds": 30.708213348989375,
+          "median_ttft_seconds": 19.085462690971326,
+          "p95_ttft_seconds": 19.17575019955402,
+          "planned": 3,
+          "target_input_tokens": 16384
+        },
+        {
+          "eligible": 3,
+          "median_actual_prompt_tokens": 32768.0,
+          "median_completion_tokens": 256.0,
+          "median_decode_tokens_per_second": 20.87304338947825,
+          "median_e2e_seconds": 53.58244510402437,
+          "median_ttft_seconds": 41.19868117501028,
+          "p95_ttft_seconds": 41.41515117031523,
+          "planned": 3,
+          "target_input_tokens": 32768
+        }
+      ],
+      "serial_eligible": 12,
+      "serial_rows": 12,
+      "telemetry": {
+        "max_power_w": 88.34,
+        "max_swap_growth_bytes": 511680512,
+        "max_temperature_c": 90.0,
+        "max_utilization_percent": 96.0,
+        "mean_power_w": 35.322946990116804,
+        "min_mem_available_bytes": 28205776896,
+        "samples": 1113
+      }
+    }
+  ],
+  "comparison": {
+    "median_decode_speed_ratio_mtp_over_no_spec": 2.8512958808799063,
+    "median_e2e_speed_ratio_mtp_over_no_spec": 1.9243449535626334,
+    "output_hash_equal": 6,
+    "paired_eligible": 12
+  },
+  "schema_version": 1
+}

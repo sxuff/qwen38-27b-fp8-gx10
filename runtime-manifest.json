@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-08-14T15:52:10+00:00",
+  "image": {
+    "reference": "lmsysorg/sglang@sha256:febfb971c7352570fc445c466ebd6ffc9d896024958e544a60f2137fd85856b1",
+    "id": "sha256:0076dffa60b76b7bf033c04d05e0cc69d46f2b8cd60aa2468827782afe9bc38f",
+    "architecture": "arm64",
+    "size_bytes": 38619182431,
+    "entrypoint": ["/opt/nvidia/nvidia_entrypoint.sh"]
+  },
+  "packages": {
+    "sglang": "0.0.0.dev0+qwen38.27b.g561c8f3",
+    "torch": "2.13.0+cu130",
+    "transformers": "5.12.1",
+    "cuda": "13.0"
+  },
+  "device": "NVIDIA GB10",
+  "help_sha256": "a8f34c8a2ac5fad211b8c12b03e0336e6ab51dce53171b877d7f18ff16ca9f15"
+}

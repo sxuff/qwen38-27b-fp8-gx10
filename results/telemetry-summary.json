@@ -1,0 +1,26 @@
+{
+  "mtp": {
+    "safety_incident": false,
+    "telemetry": {
+      "max_power_w": 88.34,
+      "max_swap_growth_bytes": 511680512,
+      "max_temperature_c": 90.0,
+      "max_utilization_percent": 96.0,
+      "mean_power_w": 35.322946990116804,
+      "min_mem_available_bytes": 28205776896,
+      "samples": 1113
+    }
+  },
+  "no-spec": {
+    "safety_incident": false,
+    "telemetry": {
+      "max_power_w": 83.5,
+      "max_swap_growth_bytes": 81760256,
+      "max_temperature_c": 90.0,
+      "max_utilization_percent": 96.0,
+      "mean_power_w": 34.64073464217859,
+      "min_mem_available_bytes": 24500076544,
+      "samples": 1579
+    }
+  }
+}

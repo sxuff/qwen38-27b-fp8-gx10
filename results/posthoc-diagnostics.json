@@ -1,0 +1,70 @@
+{
+  "concurrency_parity_by_level": {
+    "1": {
+      "equal": 6,
+      "median_decode_ratio": 2.6978056233288035,
+      "median_e2e_ratio": 2.596533079151387,
+      "pairs": 8
+    },
+    "4": {
+      "equal": 6,
+      "median_decode_ratio": 2.350715416206806,
+      "median_e2e_ratio": 2.305875986806249,
+      "pairs": 8
+    },
+    "8": {
+      "equal": 5,
+      "median_decode_ratio": 2.3132087665731214,
+      "median_e2e_ratio": 1.8050663229708253,
+      "pairs": 8
+    }
+  },
+  "effective_prefill_plus_first_token_tokens_per_second": {
+    "mtp": {
+      "16384": 858.4544302271856,
+      "32768": 795.3652657181647,
+      "4096": 1421.2201090688045,
+      "512": 1161.1084379568138
+    },
+    "no-spec": {
+      "16384": 837.6817187341612,
+      "32768": 787.8277684461257,
+      "4096": 1437.675081318906,
+      "512": 1358.4348823735188
+    }
+  },
+  "label": "post-hoc diagnostic, not preregistered primary metric",
+  "mtp_decode_log_snapshots": {
+    "accept_length_median": 3.88,
+    "accept_rate_max": 1.0,
+    "accept_rate_median": 0.96,
+    "accept_rate_min": 0.62,
+    "count": 47
+  },
+  "serial_parity_by_target": {
+    "16384": {
+      "equal": 3,
+      "median_decode_ratio": 2.9043241793742127,
+      "median_e2e_ratio": 1.7401468261443647,
+      "pairs": 3
+    },
+    "32768": {
+      "equal": 3,
+      "median_decode_ratio": 2.9059039023681286,
+      "median_e2e_ratio": 1.4393226852050331,
+      "pairs": 3
+    },
+    "4096": {
+      "equal": 0,
+      "median_decode_ratio": 2.7940088419937594,
+      "median_e2e_ratio": 2.437477072013814,
+      "pairs": 3
+    },
+    "512": {
+      "equal": 0,
+      "median_decode_ratio": 2.5574500159595352,
+      "median_e2e_ratio": 2.5002232505805915,
+      "pairs": 3
+    }
+  }
+}

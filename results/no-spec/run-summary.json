@@ -1,0 +1,47 @@
+{
+  "arm": "no-spec",
+  "base_url": "http://127.0.0.1:8000",
+  "completed_at_unix": 1786724936.6775954,
+  "concurrency_levels": [
+    1,
+    4,
+    8
+  ],
+  "concurrency_rows": 24,
+  "concurrency_success": 24,
+  "model": "qwen38-27b-fp8",
+  "output_tokens": 256,
+  "repetitions": 3,
+  "requests_per_concurrency": 8,
+  "schema_version": 1,
+  "serial_rows": 12,
+  "serial_success": 12,
+  "serial_targets": [
+    512,
+    4096,
+    16384,
+    32768
+  ],
+  "smoke": {
+    "content": "204",
+    "elapsed_seconds": 0.5306336600333452,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 4,
+      "prompt_tokens": 27,
+      "prompt_tokens_details": null,
+      "reasoning_tokens": 0,
+      "total_tokens": 31
+    }
+  },
+  "source_identity": {
+    "image_id": "sha256:0076dffa60b76b7bf033c04d05e0cc69d46f2b8cd60aa2468827782afe9bc38f",
+    "image_reference": "lmsysorg/sglang@sha256:febfb971c7352570fc445c466ebd6ffc9d896024958e544a60f2137fd85856b1",
+    "mode": "no-spec",
+    "model_repo": "Qwen/Qwen3.8-27B-FP8",
+    "model_revision": "017b9c7af6b5689d5dd426a76e0bc077eb5ca20a",
+    "model_verification_sha256": "2b3a9392fc8e71ee7b5f68e97aa1d73025f3a0227446d41d8faca706febf817b",
+    "run_id": "frozen-20260814-no-spec",
+    "snapshot_canonical_sha256": "b83338b4eab3b1b16d237c483e25b0aeaa880b4860b21dee087c9447913e421e"
+  }
+}

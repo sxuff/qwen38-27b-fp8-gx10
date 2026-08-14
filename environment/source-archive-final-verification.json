@@ -1,0 +1,49 @@
+{
+  "arms": {
+    "mtp": {
+      "all_256_completion_tokens": true,
+      "all_finite_timing": true,
+      "all_no_error": true,
+      "concurrency_rows": 24,
+      "raw_sse_complete": true,
+      "safety_incident": false,
+      "serial_rows": 12,
+      "unique_request_ids": 36
+    },
+    "no-spec": {
+      "all_256_completion_tokens": true,
+      "all_finite_timing": true,
+      "all_no_error": true,
+      "concurrency_rows": 24,
+      "raw_sse_complete": true,
+      "safety_incident": false,
+      "serial_rows": 12,
+      "unique_request_ids": 36
+    }
+  },
+  "artifacts": {
+    "posthoc_sha256": "e94b5578fa8f8b5f8c3956f72f1442f84f075b07d207797a9b0f88f30820f45f",
+    "report_sha256": "665fd23a76e505b84b3cde27d94c0c10e6f11d8fd54547defadde87fa5f7aefd",
+    "summary_sha256": "5bf93526824af0088230039ac64af72ecc8fe1d4c12d39c2d786c6ab53e968ec"
+  },
+  "checks": {
+    "all rows valid": true,
+    "hash:AMENDMENTS.md": true,
+    "hash:PROTOCOL.md": true,
+    "hash:environment/model-download-manifest.json": true,
+    "hash:environment/model-verification-report.json": true,
+    "hash:src/analyze.py": true,
+    "hash:src/benchmark.py": true,
+    "hash:src/telemetry.py": true,
+    "matched request bytes": true,
+    "mtp denominators": true,
+    "no safety incident": true,
+    "no-spec denominators": true,
+    "owned server stopped": true,
+    "posthoc exists": true,
+    "report exists": true,
+    "summary exists": true
+  },
+  "pass": true,
+  "schema_version": 1
+}
