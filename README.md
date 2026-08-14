@@ -46,8 +46,6 @@ Only **6/12 serial outputs** and **17/24 concurrency outputs** were byte-identic
 
 The public helper scripts require only Python's standard library, Bash, Docker, curl, and the NVIDIA runtime.
 
-At publication, the [official SGLang cookbook](https://docs.sglang.io/cookbook/autoregressive/Qwen/Qwen3.8-27B) listed a DGX Spark command but labeled the SM121 path as not yet validated. This repository provides one-host validation for the official FP8 checkpoint, curated row-level receipts, and a SHA-256 commitment to the private raw archive.
-
 ## Requirements
 
 - NVIDIA DGX Spark or another GB10 system running Linux on `aarch64`
@@ -180,7 +178,6 @@ This is one-host evidence. It does not prove that 0.75 or the cookbook's 0.95 se
 - [`results/posthoc-diagnostics.json`](results/posthoc-diagnostics.json): explicitly labeled post-hoc calculations
 - [`environment/source-archive-final-verification.json`](environment/source-archive-final-verification.json): original private-archive verification
 - [`environment`](environment): model manifest and complete model verification report
-- [`UPSTREAM.md`](UPSTREAM.md): SGLang cookbook validation scope and [evidence issue #34872](https://github.com/sgl-project/sglang/issues/34872)
 - [`REPORT.md`](REPORT.md): compact generated report
 
 Verify the public surface locally:
