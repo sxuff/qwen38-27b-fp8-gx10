@@ -2,6 +2,8 @@
 
 The SGLang Qwen3.8-27B cookbook currently describes a DGX Spark configuration but labels the SM121 recipe as not yet validated on that platform.
 
+Evidence issue: [sgl-project/sglang#34872](https://github.com/sgl-project/sglang/issues/34872)
+
 This repository supplies one-host validation for the official FP8 checkpoint with the dedicated SGLang image.
 
 ## Evidence suitable for an upstream issue or documentation PR

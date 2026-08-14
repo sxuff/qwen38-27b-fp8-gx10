@@ -180,6 +180,7 @@ This is one-host evidence. It does not prove that 0.75 or the cookbook's 0.95 se
 - [`results/posthoc-diagnostics.json`](results/posthoc-diagnostics.json): explicitly labeled post-hoc calculations
 - [`environment/source-archive-final-verification.json`](environment/source-archive-final-verification.json): original private-archive verification
 - [`environment`](environment): model manifest and complete model verification report
+- [`UPSTREAM.md`](UPSTREAM.md): SGLang cookbook validation scope and [evidence issue #34872](https://github.com/sgl-project/sglang/issues/34872)
 - [`REPORT.md`](REPORT.md): compact generated report
 
 Verify the public surface locally:
@@ -192,6 +193,7 @@ Expected:
 
 ```text
 PUBLICATION_VERIFY_OK: 72/72 curated rows, matched requests, regenerated aggregates, private-archive commitment, frozen hashes, privacy allowlist, 1600x900 card
+REPOSITORY_CHECKS_OK
 ```
 
 The files in `src/` are the exact benchmark and telemetry programs hashed before primary collection. The hardened public programs in `scripts/` add fail-closed row validation, mode and image binding, exact model verification, ownership labels, and watchdog supervision.
