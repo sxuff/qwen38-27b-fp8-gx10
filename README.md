@@ -1,5 +1,13 @@
 # Qwen3.8-27B-FP8 on one NVIDIA GX10
 
+## Run it
+
+```bash
+git clone https://github.com/sxuff/qwen38-27b-fp8-gx10 && cd qwen38-27b-fp8-gx10 && ./run.sh
+```
+
+Expected: **7.86 tok/s** serial decode at 512 input tokens with the default no-spec mode; **20.11 tok/s** with `MODE=mtp ./run.sh` (MTP is not output-lossless) — receipt: [`results/summary.json`](results/summary.json)
+
 A tested single-GX10 recipe for the official [`Qwen/Qwen3.8-27B-FP8`](https://huggingface.co/Qwen/Qwen3.8-27B-FP8) checkpoint using SGLang, with native in-checkpoint MTP, startup memory guards, and complete benchmark receipts.
 
 ![Qwen3.8-27B-FP8 GX10 benchmark result](assets/qwen38-gx10-result-card.png)
